@@ -58,7 +58,7 @@ Password: (em branco)
 **Todos possuem endpoints CRUD padronizados.**
 
 ### 1. CLIENTE
-- GET /cliente/cliente/{id}
+GET /cliente/cliente/{id}
 
 Retorna um cliente pelo ID.
 
