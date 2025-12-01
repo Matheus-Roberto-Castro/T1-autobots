@@ -18,25 +18,25 @@
 
 ---
 
-##Como Executar o Projeto
+## Como Executar o Projeto
   
-###Pré-requisitos:
+### Pré-requisitos:
 
 - JDK 17 instalado
 - Maven instalado
 
 
-###Rodando o projeto:
+### Rodando o projeto:
 
 - mvn spring-boot:run
 
 
-###A API estará disponível em:
+### A API estará disponível em:
 
 - http://localhost:8080
 
 
-###Configuração padrão:
+### Configuração padrão:
 
 JDBC URL: jdbc:h2:mem:testdb
 
@@ -46,9 +46,9 @@ Password: (em branco)
 
 ---
 
-##**Endpoints da API**
+## **Endpoints da API**
 
-###A API contém 4 módulos principais:
+### A API contém 4 módulos principais:
 
 /cliente
 /documento
@@ -57,7 +57,7 @@ Password: (em branco)
 
 **Todos possuem endpoints CRUD padronizados.**
 
-####1. CLIENTE
+### 1. CLIENTE
 GET /cliente/cliente/{id}
 
 Retorna um cliente pelo ID.
@@ -136,7 +136,7 @@ Exemplo:
 }
 
 
-###2. DOCUMENTO
+### 2. DOCUMENTO
 GET /documento/documentos
 
 Retorna todos os documentos cadastrados.
@@ -177,7 +177,7 @@ Exemplo:
 }
 
 
-###3. ENDEREÇO
+### 3. ENDEREÇO
 GET /endereco/enderecos
 
 Retorna todos os endereços.
@@ -222,7 +222,7 @@ Exemplo:
 }
 
 
-###4. TELEFONE
+### 4. TELEFONE
 GET /telefone/telefones
 
 Retorna todos os telefones cadastrados.
