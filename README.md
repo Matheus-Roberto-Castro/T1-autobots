@@ -76,12 +76,12 @@ Exemplo de resposta:
 }
 
 
-- GET /cliente/clientes
+GET /cliente/clientes
 
 Retorna todos os clientes cadastrados.
 
 
-- POST /cliente/cadastro
+POST /cliente/cadastro
 
 Cadastra um novo cliente.
 
@@ -110,7 +110,7 @@ Exemplo de requisição:
 }
 
 
-- PUT /cliente/atualizar
+PUT /cliente/atualizar
 
 Atualiza os dados de um cliente já existente.
 
@@ -125,7 +125,7 @@ Exemplo:
 }
 
 
-- DELETE /cliente/excluir
+DELETE /cliente/excluir
 
 Remove um cliente com base no ID informado.
 
@@ -137,17 +137,17 @@ Exemplo:
 
 
 ### 2. DOCUMENTO
-- GET /documento/documentos
+GET /documento/documentos
 
 Retorna todos os documentos cadastrados.
 
 
-- GET /documento/documento/{id}
+GET /documento/documento/{id}
 
 Retorna um documento pelo ID.
 
 
-- POST /documento/cadastro
+POST /documento/cadastro
 
 Exemplo:
 
@@ -157,7 +157,7 @@ Exemplo:
 }
 
 
-- PUT /documento/atualizar
+PUT /documento/atualizar
 
 Exemplo:
 
@@ -168,7 +168,7 @@ Exemplo:
 }
 
 
-- DELETE /documento/excluir
+DELETE /documento/excluir
 
 Exemplo:
 
@@ -183,12 +183,12 @@ Exemplo:
 Retorna todos os endereços.
 
 
-- GET /endereco/endereco/{id}
+GET /endereco/endereco/{id}
 
 Retorna um endereço pelo ID.
 
 
-- POST /endereco/cadastro
+POST /endereco/cadastro
 
 Exemplo:
 
@@ -202,7 +202,7 @@ Exemplo:
 }
 
 
-- PUT /endereco/atualizar
+PUT /endereco/atualizar
 
 Exemplo:
 
@@ -213,7 +213,7 @@ Exemplo:
 }
 
 
-- DELETE /endereco/excluir
+DELETE /endereco/excluir
 
 Exemplo:
 
@@ -223,17 +223,17 @@ Exemplo:
 
 
 ### 4. TELEFONE
-- GET /telefone/telefones
+GET /telefone/telefones
 
 Retorna todos os telefones cadastrados.
 
 
-- GET /telefone/telefone/{id}
+GET /telefone/telefone/{id}
 
 Retorna um telefone pelo ID.
 
 
-- POST /telefone/cadastro
+POST /telefone/cadastro
 
 Exemplo:
 
@@ -243,7 +243,7 @@ Exemplo:
 }
 
 
-- PUT /telefone/atualizar
+PUT /telefone/atualizar
 
 Exemplo:
 
@@ -254,7 +254,7 @@ Exemplo:
 }
 
 
-- DELETE /telefone/excluir
+DELETE /telefone/excluir
 
 Exemplo:
 
