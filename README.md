@@ -51,8 +51,11 @@ Password: (em branco)
 ### A API contém 4 módulos principais:
 
 /cliente
+
 /documento
+
 /endereco
+
 /telefone
 
 **Todos possuem endpoints CRUD padronizados.**
