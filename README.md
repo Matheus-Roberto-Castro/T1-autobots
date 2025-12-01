@@ -2,13 +2,13 @@
 
 ##Tecnologias Utilizadas:
 
-Java 17
-Spring Boot 2.6.3
-Spring Web
-Spring Data JPA
-H2 Database
-Lombok
-Maven
+-Java 17
+-Spring Boot 2.6.3
+-Spring Web
+-Spring Data JPA
+-H2 Database
+-Lombok
+-Maven
 
 ---
 
@@ -38,6 +38,7 @@ User: sa
 
 Password: (em branco)
 
+---
 
 ##**Endpoints da API**
 
