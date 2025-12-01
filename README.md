@@ -1,4 +1,4 @@
-API Autobots atvi — Spring Boot
+**API Autobots atvi — Spring Boot**
 
 Tecnologias Utilizadas:
 
@@ -10,8 +10,9 @@ H2 Database
 Lombok
 Maven
 
-- Como Executar o Projeto -
-- 
+
+**Como Executar o Projeto**
+  
 Pré-requisitos:
 
 - JDK 17 instalado
@@ -35,7 +36,7 @@ User: sa
 Password: (em branco)
 
 
-- Endpoints da API -
+**Endpoints da API**
 
 A API contém 4 módulos principais:
 
